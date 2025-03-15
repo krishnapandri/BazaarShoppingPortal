@@ -1,0 +1,71 @@
+.searchbar{
+    font-size: 14px;
+    font-family: "Public Sans", "Public Sans Fallback";
+    font-weight: 400;
+    color: rgb(43, 52, 69);
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    line-height: 1.8em;
+    border: 0px solid;
+    height: 46px;
+    padding: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(243, 245, 249);
+    padding-left: 60px;
+    padding-right: 10rem;
+    border: 0.2px solid #e6e6e6;
+}
+
+.searchIcon{
+    top: 15px;
+    border-right: 1px solid #ddd8d8;
+    left: 13px;
+    padding: 0px 15px;
+    color: rgb(125, 135, 156);
+}
+input.searchbar:hover   {
+    border: 1px solid #000000a6;
+}
+
+input.searchbar:focus-visible   {
+    border: none!important;
+}
+
+.navdiv{
+    top: 2px;
+    display: flex;
+    height: 42px;
+    right: 14px;
+    border-radius: 7px;
+}
+.form-select{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-left: 1px solid #D5DAE2;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+button{
+    font-family: 'Public Sans', 'Public Sans Fallback';;
+}
+.icons{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.ripple:hover{
+    background-color: #ebebef;
+}
+.ripple{
+    transition :150ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 20px!important;
+    border: 1px solid transparent!important;
+}

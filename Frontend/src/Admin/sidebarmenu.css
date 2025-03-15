@@ -1,0 +1,69 @@
+/* .sidebar {
+    width: 240px;
+    background: #1c2536;
+    color: white;
+    height: 100vh;
+    padding-top: 10px;
+  }
+  
+  .sidebar .MuiListItemText-root {
+    color: white;
+  }
+  
+  .sidebar .MuiListItem-root:hover {
+    background: #2d3748;
+  } */
+  
+.sidebarHeading{
+  color: white;
+  padding: 0px 10px;
+  margin: 0;
+  padding-top: 40px;
+}
+.dot{
+    width: 3px;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+
+
+
+
+
+.MenuDiv:hover::-webkit-scrollbar {
+  display: none;
+}
+
+.MenuDiv {
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100%; /* Ensure it fills the parent */
+}
+
+.MenuDiv::-webkit-scrollbar {
+  width: 2px;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.MenuDiv::-webkit-scrollbar-thumb {
+  background-color: #9099A2;
+  border-radius: 4px;
+}
+
+.MenuDiv::-webkit-scrollbar-track {
+  background-color: #1E2A38;
+  border-radius: 4px;
+}
+
+*{
+  font-size: 14px;
+}
+
+.MuiSvgIcon-fontSizeMedium{
+  font-size: 1.8rem!important;
+}

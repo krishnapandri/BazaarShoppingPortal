@@ -1,0 +1,10 @@
+.card-img-top {
+    width: 90%;
+    height: 200px;
+    object-fit: contain;
+    margin: 0px auto!important;
+}
+
+.prodCard{
+    min-width: 210px;
+}

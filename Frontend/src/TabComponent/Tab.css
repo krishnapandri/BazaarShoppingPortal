@@ -1,0 +1,23 @@
+.specs>p{
+    margin: 5px auto;
+}
+
+
+.MuiTabPanel-root.css-13xfq8m-MuiTabPanel-root{
+    padding: 10px 0px;
+}
+
+.MuiBox-root.css-194crc6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 640px;
+    width: 50%;
+}

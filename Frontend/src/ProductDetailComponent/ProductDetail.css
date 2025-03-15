@@ -1,0 +1,37 @@
+.imgSection{
+    width: 65%;
+    border: 1px solid #80808057;
+    border-radius: 11px;
+    margin: 0 auto;
+}
+
+.highlightBtnCls{
+    border:1px solid #D23F57!important;
+    color:#D23F57!important;
+}
+
+.w130px{
+    width: 90px;
+}
+
+.imgpreview{
+    width: 61px;
+    height: 59px;
+    border-radius: 11px;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.imgpreview:hover .opacity0_5{
+    opacity: 1;
+}
+.opacity0_5{
+    opacity: 0.5;
+}
+
+.addicon{
+    align-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

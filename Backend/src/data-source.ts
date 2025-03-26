@@ -18,27 +18,27 @@ require('dotenv').config();
 
 export const AppDataSource = new DataSource({
     type: "mssql",
-    host: "localhost",  // Use the SQL Server instance name
+    host: process.env.DB_HOST,  // Use the SQL Server instance name
     connectionTimeout:10000,
     requestTimeout:10000,
-    port: parseInt(process.env.DB_PORT),  // The default port for SQL Server
+    port: Number(process.env.DB_PORT),  // The default port for SQL Server
     database: process.env.DB,  // Your database name
-    synchronize: false,  // Set to false in production
+    synchronize: true,  // Set to false in production
     logging: true,
-    // username: "paras",  // SQL authentication username
-    // password: "k",  // SQL authentication password
+    username: process.env.DB_USER,  // SQL authentication username
+    password: process.env.DB_PASS,  // SQL authentication password
     extra: {
         trustServerCertificate: true,  // Allows self-signed certificates
         options: {
             encrypt: false,  // Set to true for encrypted connections
         },
     },
-    authentication:{
+    /* authentication:{
         type:'ntlm',
         options:{
             domain:process.env.DOMAIN,userName:process.env.DB_USER,password:process.env.DB_PASS
         }
-    },
+    }, */
     entities: [User,
                Brand,
                Cart,
